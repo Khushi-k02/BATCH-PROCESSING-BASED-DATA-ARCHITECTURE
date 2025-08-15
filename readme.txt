@@ -1,6 +1,6 @@
 Streaming Data Pipeline with Kafka, Airflow, and Spark
 Project Overview
-This project sets up a streaming data pipeline using Apache Kafka, Apache Airflow, and Apache Spark. The pipeline fetches user data from an external API, processes it, and streams it to Kafka for real-time analytics.
+This project sets up a streaming data pipeline using Apache Kafka, Apache Airflow, and Apache Spark. The pipeline fetches user data from an external API, processes it, and streams it to Kafka for batch processing analytics.
 Components
 1.	Apache Airflow: Orchestrates the data pipeline.
 2.	Kafka: Handles real-time data streaming.
@@ -18,4 +18,5 @@ Setup
 2.	Access Airflow at http://localhost:8080 (User: admin, Pass: admin).
 3.	Monitor Kafka UI at http://localhost:8888.
 4.	Verify data processing using Spark logs.
+
 
